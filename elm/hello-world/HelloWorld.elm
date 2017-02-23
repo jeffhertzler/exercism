@@ -1,7 +1,5 @@
 module HelloWorld exposing (..)
 
-import Array
-
 
 helloWorld : Maybe String -> String
 helloWorld name =
