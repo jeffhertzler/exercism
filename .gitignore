@@ -1,2 +1,8 @@
+# elm
 elm-stuff
 node_modules
+
+# clojure
+/clojure/**/classes/
+/clojure/**/target/
+.nrepl-port
