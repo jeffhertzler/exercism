@@ -6,3 +6,8 @@ node_modules
 /clojure/**/classes/
 /clojure/**/target/
 .nrepl-port
+
+# java
+/java/**/build/
+/java/**/.gradle/
+/java/**/.meghanada/
