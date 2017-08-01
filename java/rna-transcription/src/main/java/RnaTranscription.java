@@ -11,7 +11,7 @@ public class RnaTranscription {
     translator.put("T", "A");
     translator.put("A", "U");
     return Arrays.stream(dnaStrand.split(""))
-      .map(c -> translator.get(c))
-      .collect(Collectors.joining(""));
+        .map(c -> translator.get(c))
+        .collect(Collectors.joining(""));
   }
 }
