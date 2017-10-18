@@ -1,9 +1,12 @@
 module.exports = {
-  for(n = 1, factors = [], i = 2) {
-    return n === 1
-      ? factors
-      : n % i
-        ? this.for(n, factors, i + 1)
-        : this.for(n / i, [...factors, i], i);
+  for(n) {
+    let factors = [];
+    for (let i = 2; n > 1; i++) {
+      while (!(n % i)) {
+        factors.push(i);
+        n = n / i;
+      }
+    }
+    return factors;
   }
 };
