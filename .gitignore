@@ -11,3 +11,6 @@ node_modules
 /java/**/build/
 /java/**/.gradle/
 /java/**/.meghanada/
+
+# typescript
+/typescript/**/build/
