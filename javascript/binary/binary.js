@@ -3,6 +3,6 @@ module.exports = class Binary {
     this.binary = /^[01]+$/.test(binary) ? binary : '0';
   }
   toDecimal() {
-    return this.binary.split('').reverse().map(Number).reduce((t, b, i) => t + b * 2 ** i, 0);
+    return [...this.binary].reverse().map(Number).reduce((t, b, i) => t + b * 2 ** i, 0);
   }
 };
