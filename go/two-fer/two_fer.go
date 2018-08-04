@@ -1,9 +1,9 @@
-// Sharing with others
+// Package twofer lets you share with another.
 package twofer
 
 import "fmt"
 
-// One for {name}, one for me.
+// ShareWith accepts a name and returns a string for sharing with another.
 func ShareWith(name string) string {
 	if name == "" {
 		name = "you"
