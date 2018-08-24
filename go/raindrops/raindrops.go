@@ -1,21 +1,24 @@
 package raindrops
 
-import "strconv"
+import (
+	"strconv"
+	"strings"
+)
 
 // Convert accepts an integer and returns a string of raindrop speak
 func Convert(num int) string {
-	raindrop := ""
+	var sb strings.Builder
 	if num%3 == 0 {
-		raindrop += "Pling"
+		sb.WriteString("Pling")
 	}
 	if num%5 == 0 {
-		raindrop += "Plang"
+		sb.WriteString("Plang")
 	}
 	if num%7 == 0 {
-		raindrop += "Plong"
+		sb.WriteString("Plong")
 	}
-	if raindrop == "" {
-		raindrop = strconv.Itoa(num)
+	if sb.Len() == 0 {
+		sb.WriteString(strconv.Itoa(num))
 	}
-	return raindrop
+	return sb.String()
 }
