@@ -1,6 +1,6 @@
 # Hello World
 
-The classical introductory exercise. Just say "Hello, World!"
+The classical introductory exercise. Just say "Hello, World!".
 
 ["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
 the traditional first program for beginning programming in a new language
@@ -13,28 +13,6 @@ The objectives are simple:
 - Submit your solution and check it at the website.
 
 If everything goes well, you will be ready to fetch your first real exercise.
-
-## Setup
-
-Follow the setup instructions for Crystal here:
-
-http://exercism.io/languages/crystal
-
-More help installing can be found here:
-
-http://crystal-lang.org/docs/installation/index.html
-
-## Making the Test Suit Pass
-
-Execute the tests with:
-
-```bash
-$ crystal spec
-```
-
-In each test suite all but the first test have been skipped.
-
-Once you get a test passing, you can unskip the next one by changing `pending` to `it`.
 
 ## Project Structure
 
@@ -69,10 +47,32 @@ Be sure to submit the source file in the `src` directory when submitting your so
 $ exercism submit src/hello_world.cr
 ```
 
+
+## Setup
+
+Follow the setup instructions for Crystal here:
+
+http://exercism.io/languages/crystal
+
+More help installing can be found here:
+
+http://crystal-lang.org/docs/installation/index.html
+
+## Making the Test Suit Pass
+
+Execute the tests with:
+
+```bash
+$ crystal spec
+```
+
+In each test suite all but the first test have been skipped.
+
+Once you get a test passing, you can unskip the next one by changing `pending` to `it`.
+
 ## Source
 
 This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
 
-## Submitting Incomplete Problems
+## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
